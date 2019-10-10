@@ -6,3 +6,73 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: orange;
+  color: black;
+
+  h1, h3 {
+    padding: 15px 0;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  .title {
+    margin-left: 30px;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+.box-login {
+  display: flex;
+  align-items: center;
+
+  a {
+    margin: 0 20px;
+    color: black;
+  }
+}
+
+.box-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 250px;
+  border: 2px solid red;
+  border-radius: 15px;
+  background-color: lightyellow;
+  margin: 15px 20px;
+  padding: 20px;
+
+  p {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  a {
+    color: red;
+    font-weight: bold;
+  }
+}
